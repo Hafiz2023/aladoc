@@ -38,10 +38,10 @@ const footerLinks = [
 ];
 
 const socialLinks = [
-  { icon: <Facebook className="w-5 h-5" />, href: 'https://facebook.com' },
-  { icon: <Twitter className="w-5 h-5" />, href: 'https://twitter.com' },
-  { icon: <Instagram className="w-5 h-5" />, href: 'https://instagram.com' },
-  { icon: <Linkedin className="w-5 h-5" />, href: 'https://linkedin.com' },
+  { icon: <Facebook className="w-5 h-5" />, href: 'https://facebook.com', name: 'Facebook' },
+  { icon: <Twitter className="w-5 h-5" />, href: 'https://twitter.com', name: 'Twitter' },
+  { icon: <Instagram className="w-5 h-5" />, href: 'https://instagram.com', name: 'Instagram' },
+  { icon: <Linkedin className="w-5 h-5" />, href: 'https://linkedin.com', name: 'LinkedIn' },
 ];
 
 const contactInfo = [
@@ -75,9 +75,12 @@ export function Footer() {
                 <Input 
                   type="email" 
                   placeholder="Your email address" 
-                  className="bg-gray-800 border-gray-700 text-white placeholder-gray-400" 
+                  className="bg-gray-800 border-gray-700 text-white placeholder-gray-400 focus-visible:ring-[#00a79d]" 
                 />
-                <Button variant="secondary" className="bg-[#00a79d] hover:bg-[#008b7a] text-white">
+                <Button 
+                  variant="secondary" 
+                  className="bg-[#00a79d] hover:bg-[#008b7a] text-white focus-visible:ring-[#00a79d]"
+                >
                   Subscribe
                 </Button>
               </div>
@@ -130,9 +133,9 @@ export function Footer() {
             <div className="pt-3">
               <h4 className="text-sm font-medium text-white mb-3">Follow Us</h4>
               <div className="flex space-x-4">
-                {socialLinks.map((social, index) => (
+                {socialLinks.map((social) => (
                   <motion.a
-                    key={index}
+                    key={social.name}
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"

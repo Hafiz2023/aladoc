@@ -71,7 +71,7 @@ export default function Partnerships() {
       id: 4,
       title: "Dawn News covers oladoc health campaign",
       description: "Leading English daily features nationwide health awareness drive",
-      logo: "/Partnerships/dawn-news.png",
+      logo: "/Partnerships/the-nation.png",
       details: {
         content: "Dawn News partnered with oladoc for a 3-month health awareness campaign, publishing weekly articles on preventive healthcare. The series included contributions from 45 specialists and reached over 3M readers across print and digital.",
         date: "July 10, 2023",
@@ -87,7 +87,7 @@ export default function Partnerships() {
       id: 5,
       title: "Geo News televises oladoc health segments",
       description: "Prime time health discussions with top medical experts",
-      logo: "/Partnerships/geo-news.png",
+      logo: "/Partnerships/the-nation.png",
       details: {
         content: "Geo News's morning show 'Health Today' now features weekly segments with oladoc doctors. The partnership brings live consultations and health Q&A sessions to television audiences, reaching 8M weekly viewers.",
         date: "September 5, 2023",
@@ -103,7 +103,7 @@ export default function Partnerships() {
       id: 6,
       title: "ARY Digital partners for health awareness",
       description: "National network launches digital health education program",
-      logo: "/Partnerships/ary-digital.png",
+      logo: "/Partnerships/the-nation.png",
       details: {
         content: "ARY Digital has collaborated with oladoc to produce a 13-episode health education series. Each episode focuses on a different specialty, with demonstrations of the oladoc platform and patient success stories.",
         date: "November 18, 2023",
